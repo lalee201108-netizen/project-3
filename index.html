@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIP Tech</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 id="page-title">VIP Tech Registration</h1>
+
+  <p class="info-text">Please complete all required fields</p>
+  <p class="info-text">DOuble check your email before submitting.</p>
+<div class="main-layout">
+  <form action="#" method="post" class="card">
+    <h2>Event Sign-Up</h2>
+
+    <div class="form-group">
+        <label for="useremail">Email-Address</label>
+        <input type="email" name="useremail" placeholder="e.g. gmail.com"id="useremail" required>
+    </div>
+    <div class="form-group">
+        <label for="fullName">Full Name</label>
+        <input type="text" name="fullName" id="fullName" placeholder="Jane Doe" required>
+    </div>
+    <div class="form-group">
+        <label for="birthDate">Date of Birth:</label>
+        <input type="date" name="birthDate" id="birthDate" placeholder="Date" required>
+    </div>
+
+    <div class="form-group">
+        <label for="userNotes">Special Requests:</label>
+        <textarea name="userNotes"
+              type="text"
+              id="userNotes"
+              rows="3"
+              placeholder="Enter dietary or seating needs...">
+</textarea>
+
+            <div class="form-group">
+                <label>Ticket Tier:</label>
+                <div class="option-group">
+                    <input type="radio" name="ticket" id="tierPass" value="standard" required>
+                    <label for="tierPass">Standard</label>
+                    <input type="radio" name="ticket" id="tierVIP" value="vip">
+                    <label for="tierVIP">VIP Pass</label>
+                </div>
+            </div>
+  
+            <div class="form-group">
+                <label>Dietary Preferences:</label>
+                <div class="option-group">
+                    <input type="checkbox" name="diet" id="veg" value="vegetarian">
+                    <label for="veg">Vegetarian</label>
+                </div>
+          </div>
+          </div>
+
+          <div class="form-group">
+            <label for="tshirt">T-shirt Size:</label>
+            <select id="tshirt" name="tshirt" required>
+                <option value="" disabled selected>Select your size...</option>
+                <option value="s">Small</option>
+                <option value="m">Medium</option>
+                <option value="l">Large</option>
+            </select>
+          </div>
+
+          <button type="submit" class="submit-btn">Submit Registration</button>
+</form>
+       
+<div class="card profile-card">
+            <div class="profile-header">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Mark_Rober-_Close.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="Avatar" class="avatar">
+                <h2>Attendee Profile</h2>
+            <p>Status: Pending Registration</p>
+            </div>
+
+
+            <!-- SCHEDULE TABLE -->
+            <table>
+               <tr>
+                    <th colspan="3">Event Schedule</th>
+                    
+               </tr>
+                <tr>
+                    <th>Time</th>
+                    <th>Session</th>
+                    <th>Room</th>
+               </tr>
+               <tr>
+                    <td>9:00 AM</td>
+                    <td>Keynote Speech</td>
+                    <td>Main Hall</td>
+               </tr>
+               <tr>
+                    <td>11:00 AM</td>
+                    <td>HTML Forms Workshop</td>
+                    <td>Lab A</td>
+               </tr>
+               <tr>
+                    <td>1:00 AM</td>
+                    <td>Lunch & Networking</td>
+                    <td>Cafeteria</td>
+               </tr>
+               <tr>
+                    <td>2:30 AM</td>
+                    <td>CSS Layouts Deep Dive</td>
+                    <td>Lab B</td>
+               </tr>
+            </table>
+        </div>
+
+
+    </div>
+</div>
+</body>
+</html>
+ </form>
